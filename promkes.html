@@ -1402,34 +1402,13 @@
         let globalMonth = "all";
 
         // Mock Database Arrays
-        let dataPegawai = [
-            { id: 1, tahun: "2026", bulan: "01", tmt: "2026-01-15", lokasi_jenis: "Mutasi", instansi: "Posyandu Melati", faskes: "Puskesmas Siriwini", profesi: "Stunting / Orang Tua Balita", indikator: "Kelompok", status: "Aktif", nama: "Dr. Andi", oap: "OAP", str: 10, kadaluarsa_str: 5, sip: 5, kadaluarsa_sip: 10, pendidikan: "Poster", golongan: "Langsung Tatap Muka" },
-            { id: 2, tahun: "2026", bulan: "02", tmt: "2026-02-20", lokasi_jenis: "Lama", instansi: "", faskes: "Puskesmas Nabire Kota", profesi: "KIA & Ibu Hamil", indikator: "Individu", status: "Aktif", nama: "Bidan Susi", oap: "Non OAP", str: 2, kadaluarsa_str: 3, sip: 0, kadaluarsa_sip: 5, pendidikan: "Leaflet", golongan: "Langsung Tatap Muka" }
-        ];
-        
-        let dataPosyandu = [
-            { id: 1, tahun: "2026", bulan: "01", nama: "Posyandu Mawar", faskes: "Puskesmas Nabire Kota", sk: "SK/001/2025", kader: 5, frekuensi: 12, bumil_sasaran: 20, bumil_cakupan: 18, balita_sasaran: 50, balita_cakupan: 45, remaja_sasaran: 30, remaja_cakupan: 10, produktif_sasaran: 100, produktif_cakupan: 60, lansia_sasaran: 40, lansia_cakupan: 35, kunjungan_sasaran: 150, kunjungan_cakupan: 120 }
-        ];
-        
-        let dataKader = [
-            { id: 1, nama: "Siti Aminah", nik: "9101010101010101", sk: "SK/001/2026", faskes: "Puskesmas Siriwini", posyandu: "Posyandu Melati", status: "Madya" },
-            { id: 2, nama: "Mama Papua", nik: "9101010101010102", sk: "SK/002/2026", faskes: "Puskesmas Nabire Kota", posyandu: "Posyandu Anggrek", status: "Purwa" }
-        ];
-        
-        let dataPHBS = [
-            { id: 1, tahun: "2026", bulan: "01", desa: "Kampung Siriwini", faskes: "Puskesmas Siriwini", kk_total: 100, kk_sehat: 45, petugas: "Budi" },
-            { id: 2, tahun: "2026", bulan: "02", desa: "Kelurahan Nabarua", faskes: "Puskesmas Nabarua", kk_total: 200, kk_sehat: 120, petugas: "Agus" }
-        ];
-        
-        let dataKTR = [
-            { id: 1, tahun: "2026", tanggal: "2026-02-10", tatanan: "Tempat Proses Belajar Mengajar", nama_tempat: "SDN 1 Siriwini", lokasi: "Jl. Siriwini", faskes: "Puskesmas Siriwini", petugas: "Susi", status: "Patuh" },
-            { id: 2, tahun: "2026", tanggal: "2026-02-15", tatanan: "Tempat Proses Belajar Mengajar", nama_tempat: "SMPN 1 Nabire", lokasi: "Jl. Merdeka", faskes: "Puskesmas Nabire Kota", petugas: "Anton", status: "Tidak Patuh" },
-            { id: 3, tahun: "2026", tanggal: "2026-03-01", tatanan: "Fasilitas Pelayanan Kesehatan", nama_tempat: "Pustu Bumi Raya", lokasi: "Bumi Raya", faskes: "Puskesmas Bumi Wonorejo", petugas: "Rina", status: "Patuh" }
-        ];
-        
-        let dataNotaTugas = [
-            { id: 1, nomor: "ST/001/2026", tmt: "2026-03-01", faskes: "Puskesmas Siriwini", penyuluh: "Budi Santoso", lokasi: "Kampung Nabarua", status: "Berlaku" }
-        ];
+        // Mock Database Arrays - Dikosongkan
+let dataPegawai = [];
+let dataPosyandu = [];
+let dataKader = [];
+let dataPHBS = [];
+let dataKTR = [];
+let dataNotaTugas = [];
 
         window.onload = function() {
             populateFaskesDropdowns();
